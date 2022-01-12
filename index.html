@@ -8,19 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Placement text</h1>
-  <div class="flex-container">
-      <input type="noun" placeholder="noun">
-      <input type="noun plural" placeholder="noun plural">
-      <input type="present tense verb" placeholder="noun plural">
-      <input type="present tense verb" placeholder="noun plural">
-      <input type="part of body plural" placeholder="part of body plural">
-      <input type="adjective" placeholder="adjective">
-      <input type="noun plural" placeholder="">
-      <input type="adjective">
-  </div> 
- 
-
+    <h1>New Sport</h1>
+    <form onsubmit="return false" action class="flex-container">
+      <ul>
+      <li><input type="noun" placeholder="noun" id="text-one"></li>
+      <li><input type="noun plural" placeholder="noun plural" id="text-two"></li>
+      <li><input type="present tense verb" placeholder="noun plural" id="text-three"></li>
+      <li><input type="present tense verb" placeholder="noun plural" text-four></li>
+      <li><input type="part of body plural" placeholder="part of body plural" text-five></li>
+      <li><input type="adjective" placeholder="adjective" id="text-six"></li>
+      <li><input type="noun plural" placeholder="noun plural" id="text-seven"></li>
+      <li><input type="adjective" placeholder="adjective" id="text-eight"></li>
+          <button type="button" id="button" onclick="createParagraph()">Create the Game!</button>
+    </ul>
+</form>
 
 
 </body>
