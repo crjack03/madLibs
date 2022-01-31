@@ -11,18 +11,19 @@
     <h1>New Sport</h1>
     <form onsubmit="return false" action class="flex-container">
       <ul>
-      <li><input type="noun" placeholder="noun" id="text-one"></li>
-      <li><input type="noun plural" placeholder="noun plural" id="text-two"></li>
-      <li><input type="present tense verb" placeholder="noun plural" id="text-three"></li>
-      <li><input type="present tense verb" placeholder="noun plural" text-four></li>
-      <li><input type="part of body plural" placeholder="part of body plural" text-five></li>
-      <li><input type="adjective" placeholder="adjective" id="text-six"></li>
-      <li><input type="noun plural" placeholder="noun plural" id="text-seven"></li>
-      <li><input type="adjective" placeholder="adjective" id="text-eight"></li>
+      <li><input type="noun" placeholder="noun" id="text-one" id = 'word1'></li>
+      <li><input type="noun plural" placeholder="noun plural" id="text-two" id = 'word2'></li>
+      <li><input type="present tense verb" placeholder="present tense verb" id="text-three" id = 'word3'></li>
+      <li><input type="present tense verb" placeholder="present tense verb" text-four id = 'word4'></li>
+      <li><input type="part of body plural" placeholder="part of body plural" text-five id = 'word5'></li>
+      <li><input type="adjective" placeholder="adjective" id="text-six" id = 'word6'></li>
+      <li><input type="noun plural" placeholder="noun plural" id="text-seven" id = 'word7'></li>
+      <li><input type="adjective" placeholder="adjective" id="text-eight" id = 'word8'></li>
           <button type="button" id="button" onclick="createParagraph()">Create the Game!</button>
     </ul>
 </form>
+<div id="answer"></div>
 
-
+<script src="index.js"></script>
 </body>
 </html>
